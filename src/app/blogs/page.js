@@ -33,7 +33,7 @@ export default function Blog() {
       {blogs.map((blog) => (
         <div className="blog-container" key={blog?.id}>
           <h2>
-            <Link href={`/blog/${blog?.id}`}>{blog?.title}</Link>
+            <Link href={`/blogs/${blog?.id}`}>{blog?.title}</Link>
           </h2>
           <p>{blog?.body}</p>
         </div>
